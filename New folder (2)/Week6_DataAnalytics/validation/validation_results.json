@@ -1,0 +1,88 @@
+{
+  "results": [
+    {
+      "check": "V1a record count",
+      "result": "PASS",
+      "detail": "csv rows 497,464 vs dashboard 497,464"
+    },
+    {
+      "check": "V1b symbol count",
+      "result": "PASS",
+      "detail": "505 symbols"
+    },
+    {
+      "check": "V1c total shares traded",
+      "result": "PASS",
+      "detail": "2,116,051,738,554"
+    },
+    {
+      "check": "V1d KPI average close (selected)",
+      "result": "PASS",
+      "detail": "$176.34 vs $176.34"
+    },
+    {
+      "check": "V2 daily return formula",
+      "result": "PASS",
+      "detail": "max abs difference across 6 stocks x 1,006 days = 0.00e+00 percentage points"
+    },
+    {
+      "check": "V3 20-day moving average",
+      "result": "PASS",
+      "detail": "max abs difference 4.55e-13; first 19 values blank (no look-ahead, no zero fill)"
+    },
+    {
+      "check": "V3 5-day moving average",
+      "result": "PASS",
+      "detail": "max abs difference 2.27e-13; first 4 values blank (no look-ahead, no zero fill)"
+    },
+    {
+      "check": "V4a symbol filter",
+      "result": "PASS",
+      "detail": "traces ['JPM', 'MSFT']"
+    },
+    {
+      "check": "V4b date filter",
+      "result": "PASS",
+      "detail": "504 points, 2016-01-04..2016-12-30, expected 504"
+    },
+    {
+      "check": "V4c six-series cap",
+      "result": "PASS",
+      "detail": "9 symbols selected -> 6 plotted"
+    },
+    {
+      "check": "V4d empty selection safe",
+      "result": "PASS",
+      "detail": "no traces, message shown instead of error"
+    },
+    {
+      "check": "V5a rolling 30-day volatility",
+      "result": "PASS",
+      "detail": "XOM last value 8.3487 vs manual 8.3487"
+    },
+    {
+      "check": "V5b average volume",
+      "result": "PASS",
+      "detail": "max abs difference 0.00e+00 million shares"
+    },
+    {
+      "check": "V6 total return",
+      "result": "PASS",
+      "detail": "max abs difference 0.0000 percentage points (stocks without flagged days)"
+    }
+  ],
+  "interior_gaps": {
+    "DHR": 13,
+    "ES": 10,
+    "ICE": 1,
+    "O": 13,
+    "REGN": 1,
+    "VRTX": 1,
+    "WRK": 1,
+    "BHF": 1
+  },
+  "brief_vs_file": {
+    "brief_rows": 497472,
+    "file_rows": 497464
+  }
+}

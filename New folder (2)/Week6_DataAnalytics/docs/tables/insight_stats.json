@@ -1,0 +1,39 @@
+{
+  "equal_weight_index_end": 154.7,
+  "equal_weight_yearly_return_pct": {
+    "2014": 16.9,
+    "2015": -1.1,
+    "2016": 14.0,
+    "2017": 17.4
+  },
+  "median_total_return_pct": 47.6,
+  "pct_full_history_positive": 80.5,
+  "n_full_history": 477,
+  "median_ann_vol_pct": 22.7,
+  "top10_share_of_volume_pct": 18.3,
+  "best_month": {
+    "year": 2016.0,
+    "month": 3.0,
+    "equal_weight_return_pct": 8.043
+  },
+  "worst_month": {
+    "year": 2016.0,
+    "month": 1.0,
+    "equal_weight_return_pct": -5.593
+  },
+  "index_worst_drawdown_pct": -16.4,
+  "index_worst_drawdown_date": "2016-02-11",
+  "low_vol_high_return": [
+    "AOS",
+    "APH",
+    "ARE",
+    "AVY",
+    "AWK",
+    "BA",
+    "CBOE",
+    "CDNS",
+    "CTAS",
+    "DLR"
+  ],
+  "corr_return_vol_across_stocks": -0.205
+}
